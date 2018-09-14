@@ -11,7 +11,7 @@
   </view>
   <modal 
      hidden="{{hiddenModal}}"
-     confirm-text="再看看"
+     confirm-text="确定"
      no-cancel=true
      bindconfirm="listenerConfirm" >
     <textarea bindinput="bindIssueDescriptionInput" class="textarea" style="height: 3em" placeholder="输入问题原因"></textarea>
